@@ -1,0 +1,48 @@
+<Playlist Version="2.0">
+  <Rule Name="Includes" Match="Any">
+    <Rule Match="All">
+      <Property Name="Solution" />
+      <Rule Match="Any">
+        <Rule Match="All">
+          <Property Name="Project" Value="Calculator.Tests" />
+          <Rule Match="Any">
+            <Rule Match="All">
+              <Property Name="Namespace" Value="Calculator.Tests" />
+              <Rule Match="Any">
+                <Rule Match="All">
+                  <Property Name="Class" Value="CalcTests" />
+                  <Rule Match="Any">
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="Calculator.Tests.CalcTests.Calc_Substract_10_and_5_Results_5" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="Calc_Substract_10_and_5_Results_5" />
+                      </Rule>
+                    </Rule>
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="Calculator.Tests.CalcTests.Calc_Substract_N7_and_12_Results_N19" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="Calc_Substract_N7_and_12_Results_N19" />
+                      </Rule>
+                    </Rule>
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="Calculator.Tests.CalcTests.Calc_Substract_0_and_0_Results_0" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="Calc_Substract_0_and_0_Results_0" />
+                      </Rule>
+                    </Rule>
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="Calculator.Tests.CalcTests.Calc_Subtract" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="Calc_Subtract" />
+                      </Rule>
+                    </Rule>
+                  </Rule>
+                </Rule>
+              </Rule>
+            </Rule>
+          </Rule>
+        </Rule>
+      </Rule>
+    </Rule>
+  </Rule>
+</Playlist>

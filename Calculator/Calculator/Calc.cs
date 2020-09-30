@@ -1,11 +1,14 @@
-﻿namespace Calculator
+﻿using System;
+
+namespace Calculator
 {
     public class Calc
     {
 
         public int Subtract(int a, int b)
         {
-            return a - b;
+            return checked(a - b);
+
         }
     }
 }
