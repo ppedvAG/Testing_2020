@@ -14,5 +14,8 @@ https://autofixture.github.io
 try-convert
 https://github.com/dotnet/try-convert
 
+Portabiliy Analyzer
+https://marketplace.visualstudio.com/items?itemName=ConnieYau.NETPortabilityAnalyzer
+
 Vivaldi
 https://vivaldi.com
