@@ -8,12 +8,20 @@ namespace TDDBank
 
         public void Deposit(decimal v)
         {
-            throw new NotImplementedException();
+            if (v <= 0) throw new ArgumentException();
+
+            if (v > 1000)
+                v = v / 2;
+
+            Balance += v;
         }
 
         public void Withdraw(decimal v)
         {
-            throw new NotImplementedException();
+            if (v <= 0) throw new ArgumentException();
+            if (v > Balance) throw new InvalidOperationException();
+
+            Balance -= v;
         }
     }
 }
