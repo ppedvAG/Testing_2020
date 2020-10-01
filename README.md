@@ -13,3 +13,6 @@ https://autofixture.github.io
 
 try-convert
 https://github.com/dotnet/try-convert
+
+Vivaldi
+https://vivaldi.com
