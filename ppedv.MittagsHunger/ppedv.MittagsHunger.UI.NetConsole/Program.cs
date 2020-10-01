@@ -23,6 +23,8 @@ namespace ppedv.MittagsHunger.UI.NetConsole
                 }
             }
 
+
+            Console.WriteLine($"Lieferant mit most KCAL: {core.GetLieferantWithMostKCal().Name}");
             Console.WriteLine("Ende");
             Console.ReadLine();
         }
