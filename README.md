@@ -22,3 +22,6 @@ https://vivaldi.com
 
 demo daten
 https://github.com/bchavez/Bogus
+
+.NET Blog
+https://devblogs.microsoft.com/dotnet/
