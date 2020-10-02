@@ -1,11 +1,10 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ppedv.MittagsHunger.Data.EF\ppedv.MittagsHunger.Data.EF.csproj" />
     <ProjectReference Include="..\ppedv.MittagsHunger.Model\ppedv.MittagsHunger.Model.csproj" />
   </ItemGroup>
 
