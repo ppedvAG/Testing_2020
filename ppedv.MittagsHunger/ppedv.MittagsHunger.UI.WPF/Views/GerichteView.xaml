@@ -1,0 +1,33 @@
+﻿<UserControl x:Class="ppedv.MittagsHunger.UI.WPF.Views.GerichteView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:ppedv.MittagsHunger.UI.WPF.Views"
+             xmlns:vm="clr-namespace:ppedv.MittagsHunger.UI.WPF.ViewModel"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <UserControl.DataContext>
+        <vm:GerichteViewModel/>
+    </UserControl.DataContext>
+    <DockPanel>
+        <WrapPanel DockPanel.Dock="Top">
+            <Button>Laden</Button>
+            <Button Command="{Binding SaveCommand}">Speichern</Button>
+            <Button>Löschen</Button>
+        </WrapPanel>
+        <DataGrid SelectedItem="{Binding SelectedGericht}" ItemsSource="{Binding GerichtListe}" Width="300" DockPanel.Dock="Left"/>
+        <StackPanel Margin="8">
+            <Label>Name</Label>
+            <TextBox Text="{Binding SelectedGericht.Name}"/>
+            <Label>Preis</Label>
+            <TextBox Text="{Binding SelectedGericht.Preis}"/>
+            <Label>KCal</Label>
+            <TextBox Text="{Binding SelectedGericht.KCal}"/>
+            <Label>Vege</Label>
+            <CheckBox IsChecked="{Binding SelectedGericht.Vegetarisch}"/>
+            <Label>Lieferant</Label>
+            <TextBlock Text="{Binding LieferantInfo}"></TextBlock>
+        </StackPanel>
+    </DockPanel>
+</UserControl>

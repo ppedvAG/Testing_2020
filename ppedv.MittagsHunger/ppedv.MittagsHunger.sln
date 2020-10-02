@@ -10,6 +10,9 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ppedv.MittagsHunger.Data.EF.Tests", "ppedv.MittagsHunger.Data.EF.Tests\ppedv.MittagsHunger.Data.EF.Tests.csproj", "{55FD03D0-9F24-48D8-9D82-855072F678D2}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{8D9F993C-8AC3-439F-AA25-C39A5BC80FC8}"
+	ProjectSection(SolutionItems) = preProject
+		ppedv.MittagsHunger.UI.WPF\RelayCommand.cs = ppedv.MittagsHunger.UI.WPF\RelayCommand.cs
+	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ppedv.MittagsHunger.BusinessLogic", "ppedv.MittagsHunger.BusinessLogic\ppedv.MittagsHunger.BusinessLogic.csproj", "{5857ADD4-D900-47D8-A600-C769B8F1F7E9}"
 EndProject
@@ -24,6 +27,10 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CrossCutting", "CrossCutting", "{38DF0DB3-5E51-4EAE-9687-1EA7C438DF0C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ppedv.MittagsHunger.UI.Web", "ppedv.MittagsHunger.UI.Web\ppedv.MittagsHunger.UI.Web.csproj", "{102D9911-69ED-486B-9827-0E0D1CD829C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ppedv.MittagsHunger.UI.WinForms", "ppedv.MittagsHunger.UI.WinForms\ppedv.MittagsHunger.UI.WinForms.csproj", "{69E03644-7E69-4A1F-9129-FE5CFC99A24B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ppedv.MittagsHunger.UI.WPF", "ppedv.MittagsHunger.UI.WPF\ppedv.MittagsHunger.UI.WPF.csproj", "{A61AA16B-98C7-448B-872A-F7378869D03C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -59,6 +66,14 @@ Global
 		{102D9911-69ED-486B-9827-0E0D1CD829C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{102D9911-69ED-486B-9827-0E0D1CD829C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{102D9911-69ED-486B-9827-0E0D1CD829C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69E03644-7E69-4A1F-9129-FE5CFC99A24B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69E03644-7E69-4A1F-9129-FE5CFC99A24B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69E03644-7E69-4A1F-9129-FE5CFC99A24B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69E03644-7E69-4A1F-9129-FE5CFC99A24B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A61AA16B-98C7-448B-872A-F7378869D03C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A61AA16B-98C7-448B-872A-F7378869D03C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A61AA16B-98C7-448B-872A-F7378869D03C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A61AA16B-98C7-448B-872A-F7378869D03C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -71,6 +86,8 @@ Global
 		{D61B9BD3-6A1C-436E-A0A8-E69F5CF63C38} = {853D0865-C224-47A4-AC02-1B0CC6D28D90}
 		{B42176F9-A1C5-4482-AA57-1482B585602F} = {D4AFC9FF-6E9D-4655-8F44-C9D5A6401403}
 		{102D9911-69ED-486B-9827-0E0D1CD829C6} = {853D0865-C224-47A4-AC02-1B0CC6D28D90}
+		{69E03644-7E69-4A1F-9129-FE5CFC99A24B} = {853D0865-C224-47A4-AC02-1B0CC6D28D90}
+		{A61AA16B-98C7-448B-872A-F7378869D03C} = {853D0865-C224-47A4-AC02-1B0CC6D28D90}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {41767131-975A-468A-9FC3-D6862312F8B1}
